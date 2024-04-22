@@ -14,3 +14,13 @@ for (i = 0; i < acc.length; i++) {
     }
     });
 }
+
+const currentDate = new Date();
+
+var hours = currentDate.getHours().toString().padStart(2, '0');
+var minutes = currentDate.getMinutes().toString().padStart(2, '0');
+var seconds = currentDate.getSeconds().toString().padStart(2, '0');
+
+var formattedDateTime = ' ' + hours + ':' + minutes + ':' + seconds;
+
+document.querySelector(".date").innerHTML = formattedDateTime;

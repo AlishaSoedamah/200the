@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "CHARLEY";
-	src: url("../fonts/CHARLEY.otf");
+	font-family: "HelveticaLight";
+	src: url("../fonts/HelveticaNeueLight.ttf");
 }
 @font-face {
 	font-family: "Helvetica";
@@ -11,6 +11,7 @@ html {
 	--primary-color: #F4F4F4;
 	--secondary-color: #0e0e0e;
     --body-font: "Helvetica";
+    --light-font: "Helvetica";
 }
 
 body {
@@ -145,7 +146,22 @@ article > ul > li {
     width: auto;
 }
 
-/* ugh */
+.accordion:after {
+	content: '+';
+	font-size: 40px;
+	font-family:  var(--light-font);
+	color: #ffffff;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: '-';
+	font-size: 40px;
+	font-family:  var(--light-font);
+  }
+
+/* Dont do this */
 .flex
 {
 	display: flex;
@@ -172,6 +188,12 @@ div {
 }
 
 footer {
+	display: block;
 	padding: 20px 40px;
+	background-color: #181818;
+	border-radius: 40px;
 }
 
+footer > a {
+	margin-left: 10px;
+}
