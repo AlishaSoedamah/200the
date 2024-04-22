@@ -124,6 +124,7 @@ article > ul > li {
 	color: var(--primary-color);
 	transition: 0.4s;
 	background-color: var(--secondary-color);
+	margin-top: -18px;
   }
   
 .active, .accordion:hover {
@@ -180,6 +181,7 @@ div {
 
 	margin: 20px 0;
 }
+
 @media only screen and (max-width: 800px) {
 	.flex
 	{
