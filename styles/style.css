@@ -183,6 +183,13 @@ div {
 }
 
 @media only screen and (max-width: 800px) {
+	h1 {
+		font-size: 4em;
+	}
+
+	h2 {
+		padding: 20px 0;
+	}
 	.flex
 	{
 		display: block;
