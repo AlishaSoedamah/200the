@@ -199,6 +199,11 @@ div {
 	h2 {
 		padding: var(--main-margin) 0;
 	}
+
+	div {
+		display: inline;
+	}
+
 	.flex
 	{
 		display: block;
