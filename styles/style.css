@@ -93,6 +93,7 @@ video {
 	width: 430px;
 	height: auto;
 }
+
 .case-container {
     width: 700px;
     display: grid;
@@ -136,7 +137,7 @@ button {
 	transition: 0.4s;
 	background-color: var(--secondary-color);
 	margin-top: 10px;
-  }
+}
   
 .active, button:hover {
 	background-color: var(--secondary-color); 
@@ -155,6 +156,10 @@ button {
 
 .undo_img_size {
 	height: auto;
+}
+
+.mid_img_size {
+	height: 75em;
 }
 
 .panel > article > img {
