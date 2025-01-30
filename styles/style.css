@@ -72,7 +72,7 @@ article > a,
 }
 
 img {
-	height: 30rem;
+	height: 25rem;
     width: auto;
 }
 
@@ -88,6 +88,7 @@ article > p {
 .cases > hr {
 	margin: 1.3em 0;
 }
+
 video {
 	width: 430px;
 	height: auto;
@@ -152,8 +153,12 @@ button {
 	max-width: 45em;
 }
 
+.undo_img_size {
+	height: auto;
+}
+
 .panel > article > img {
-	height: 50rem;
+	height: 40rem;
     width: auto;
 }
 
