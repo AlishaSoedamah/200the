@@ -194,11 +194,9 @@ button:after {
 div {
 	display: flex;
 	align-items: center;
-	justify-content: center;
-
 	overflow-y: scroll;
 	overflow-x: scroll;
-
+	cursor: ew-resize;
 	margin: var(--main-margin) 0;
 }
 
