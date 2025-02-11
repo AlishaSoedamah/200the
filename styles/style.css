@@ -17,7 +17,6 @@ html {
 }
 
 body {
-    /* resets */
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
@@ -50,6 +49,7 @@ h3 {
 p {
 	font-size: 16px;
 	line-height: 145%;
+	font-family: var(--body-font);
 }
 
 hr {
@@ -84,7 +84,6 @@ article > p {
 	max-width: 45em;
 }
 
-/* cases */
 .cases > hr {
 	margin: 1.3em 0;
 }
@@ -133,9 +132,8 @@ button {
 	text-align: left;
 	outline: none;
 	font-size: 30px;
-	color: var(--primary-color);
 	transition: 0.4s;
-	background-color: var(--secondary-color);
+	font-family: var(--light-font);
 	margin-top: 10px;
 }
   
@@ -169,7 +167,7 @@ button {
 
 .highlight_txt {
 	border-radius: 30px;
-	padding: 3px 10px;
+	padding: 7px 14px;
 	outline: var(--primary-color) solid 1.5px;
 	background-color: var(--secondary-highlight-color);
 	width: 137px;
@@ -177,25 +175,15 @@ button {
 
 button:after {
 	content: '+';
-	background-color: var(--secondary-highlight-color);
-	border-radius: 35px;
-	padding: 0 10px;
-	outline: var(--primary-color) solid 1.5px;
-	font-size: var(--dubble-main-margin);
-	font-family:  var(--light-font);
-	color: #0e0e0e;
 	float: right;
 	margin-left: 5px;
-  }
+}
   
-  .active:after {
+.active:after {
 	content: '-';
-	padding: 0 15px;
 	font-size: var(--dubble-main-margin);
-	font-family:  var(--light-font);
-  }
+}
 
-/* Dont do this */
 .flex
 {
 	padding: 50px 0;
