@@ -171,7 +171,7 @@ button:after {
 	content: '+';
 	font-size: var(--dubble-main-margin);
 	font-family:  var(--light-font);
-	color: #ffffff;
+	color: #0e0e0e;
 	float: right;
 	margin-left: 5px;
   }
