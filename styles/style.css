@@ -167,8 +167,20 @@ button {
     width: auto;
 }
 
+.highlight_txt {
+	border-radius: 30px;
+	padding: 3px 10px;
+	outline: var(--primary-color) solid 2px;
+	background-color: var(--secondary-highlight-color);
+	width: 137px;
+}
+
 button:after {
 	content: '+';
+	background-color: var(--secondary-highlight-color);
+	border-radius: 30px;
+	padding: 0 10px;
+	outline: var(--primary-color) solid 2px;
 	font-size: var(--dubble-main-margin);
 	font-family:  var(--light-font);
 	color: #0e0e0e;
@@ -178,6 +190,7 @@ button:after {
   
   .active:after {
 	content: '-';
+	padding: 0 15px;
 	font-size: var(--dubble-main-margin);
 	font-family:  var(--light-font);
   }
