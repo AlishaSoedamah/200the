@@ -170,7 +170,7 @@ button {
 .highlight_txt {
 	border-radius: 30px;
 	padding: 3px 10px;
-	outline: var(--primary-color) solid 2px;
+	outline: var(--primary-color) solid 1.5px;
 	background-color: var(--secondary-highlight-color);
 	width: 137px;
 }
@@ -178,9 +178,9 @@ button {
 button:after {
 	content: '+';
 	background-color: var(--secondary-highlight-color);
-	border-radius: 30px;
+	border-radius: 35px;
 	padding: 0 10px;
-	outline: var(--primary-color) solid 2px;
+	outline: var(--primary-color) solid 1.5px;
 	font-size: var(--dubble-main-margin);
 	font-family:  var(--light-font);
 	color: #0e0e0e;
@@ -239,6 +239,7 @@ div {
 footer {
 	display: block;
 	padding: var(--main-margin) var(--dubble-main-margin);
+	outline: var(--primary-color) solid 2px;
 	background-color: #FFDA48;
 	border-radius: var(--dubble-main-margin) var(--dubble-main-margin) 0 0;
 }
