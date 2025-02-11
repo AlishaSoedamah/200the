@@ -8,9 +8,9 @@
 }
 
 html {
-	--primary-color: #F4F4F4;
-	--secondary-color: #0e0e0e;
-	--secondary-highlight-color: #7a7a7a;
+	--primary-color: #0e0e0e;
+	--secondary-color: #EEEEEE;
+	--secondary-highlight-color: #FFDA48;
     --body-font: "Helvetica";
 	--main-margin: 20px;
 	--dubble-main-margin: 40px;
@@ -21,7 +21,6 @@ body {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-
 	font-family: var(--body-font); 
 	background-color: var(--secondary-color);
 	color: var(--primary-color);
@@ -54,6 +53,7 @@ p {
 }
 
 hr {
+	border: 0.9px solid var(--primary-color);
 	margin: 2em 0;
 }
 
@@ -185,6 +185,7 @@ button:after {
 /* Dont do this */
 .flex
 {
+	padding: 50px 0;
 	display: flex;
 	flex-direction: row-reverse; 
 	align-items: center;
@@ -225,8 +226,8 @@ div {
 footer {
 	display: block;
 	padding: var(--main-margin) var(--dubble-main-margin);
-	background-color: #181818;
-	border-radius: var(--dubble-main-margin);
+	background-color: #FFDA48;
+	border-radius: var(--dubble-main-margin) var(--dubble-main-margin) 0 0;
 }
 
 footer > h2 {
