@@ -242,5 +242,5 @@ footer > a {
 }
 
 footer > a:hover {
-	color: var(--secondary-highlight-color);
+	text-decoration: underline;
 }
